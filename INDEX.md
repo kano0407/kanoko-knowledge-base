@@ -17,6 +17,14 @@
 - [[02_Projects/youtube-automation/_overview|YouTube自動化]]
 - [[02_Projects/workflow-c-multianalysis/_overview|Workflow C マルチスキル]]
 - [[02_Projects/notebooklm-workflow/_overview|NotebookLM連携]]
+- [[02_Projects/youtube-shorts/project_youtube_shorts_20260501.md|project_youtube_shorts_20260501]]
+- [[02_Projects/youtube-automation/implementation.md|implementation]]
+- [[02_Projects/youtube-automation/6step-strategy.md|6step-strategy]]
+- [[02_Projects/notebooklm-workflow/_overview.md|_overview]]
+- [[02_Projects/notebooklm-workflow/_overview.md|_overview]]
+- [[02_Projects/youtube-automation/implementation.md|implementation]]
+- [[02_Projects/youtube-automation/6step-strategy.md|6step-strategy]]
+- [[02_Projects/youtube-shorts/project_youtube_shorts_20260501.md|project_youtube_shorts_20260501]]
 
 ### 🎓 スキル & 評価
 - **audience-feedback-aggregator**
@@ -30,6 +38,8 @@
   - [[03_Skills/platform-analysis-integrator/eval-1-with-skill|Eval 1 with-skill (9.2/10)]]
   - [[03_Skills/platform-analysis-integrator/eval-2-with-skill|Eval 2 with-skill (8.7/10)]]
   - [[03_Skills/platform-analysis-integrator/eval-3-with-skill|Eval 3 with-skill (8.4/10)]]
+- [[03_Skills/_deployment-log.md|_deployment-log]]
+- [[03_Skills/_deployment-log.md|_deployment-log]]
 
 ### 📊 分析結果
 - [[04_Analysis/monthly/2026-04-x-trends|X月別トレンド（4月）]]
@@ -71,3 +81,21 @@ Obsidian右側の「グラフ」アイコンをクリックすると、プロジ
 ---
 
 **最終更新**: 2026-04-10 | **プロジェクト**: Workflow D（Obsidian連携）
+- [[08_Archive/test_project_complex_20260501.md|test_project_complex_20260501]]
+- [[08_Archive/test_project_sync_basic_20260501.md|test_project_sync_basic_20260501]]
+- [[00_Profile/_goals.md|_goals]]
+- [[08_Archive/obs-viewer-overlay.md|obs-viewer-overlay]]
+- [[08_Archive/test_reference_sync_20260501.md|test_reference_sync_20260501]]
+- [[07_Reference/notion-pages.md|notion-pages]]
+- [[01_Strategy/x-mindset.md|x-mindset]]
+- [[00_Profile/_profile.md|_profile]]
+- [[07_Reference/notebooklm-integration.md|notebooklm-integration]]
+- [[08_Archive/test_project_complex_20260501.md|test_project_complex_20260501]]
+- [[08_Archive/test_reference_sync_20260501.md|test_reference_sync_20260501]]
+- [[08_Archive/test_project_sync_basic_20260501.md|test_project_sync_basic_20260501]]
+- [[01_Strategy/x-mindset.md|x-mindset]]
+- [[00_Profile/_goals.md|_goals]]
+- [[07_Reference/notion-pages.md|notion-pages]]
+- [[00_Profile/_profile.md|_profile]]
+- [[08_Archive/obs-viewer-overlay.md|obs-viewer-overlay]]
+- [[07_Reference/notebooklm-integration.md|notebooklm-integration]]
