@@ -1,0 +1,84 @@
+{
+  "tags": [
+    {
+      "name": "project/youtube-automation",
+      "color": "blue"
+    },
+    {
+      "name": "project/notebooklm",
+      "color": "green"
+    },
+    {
+      "name": "project/workflow-c",
+      "color": "purple"
+    },
+    {
+      "name": "skill/audience-feedback",
+      "color": "red"
+    },
+    {
+      "name": "skill/platform-analysis",
+      "color": "red"
+    },
+    {
+      "name": "status/planning",
+      "color": "gray"
+    },
+    {
+      "name": "status/in-progress",
+      "color": "yellow"
+    },
+    {
+      "name": "status/completed",
+      "color": "green"
+    },
+    {
+      "name": "status/archived",
+      "color": "gray"
+    },
+    {
+      "name": "priority/p1",
+      "color": "red"
+    },
+    {
+      "name": "priority/p2",
+      "color": "yellow"
+    },
+    {
+      "name": "priority/p3",
+      "color": "blue"
+    },
+    {
+      "name": "evaluation/with-skill",
+      "color": "green"
+    },
+    {
+      "name": "evaluation/without-skill",
+      "color": "blue"
+    },
+    {
+      "name": "quality/production-ready",
+      "color": "green"
+    },
+    {
+      "name": "analysis/trend",
+      "color": "purple"
+    },
+    {
+      "name": "analysis/notebooklm",
+      "color": "green"
+    },
+    {
+      "name": "guidelines",
+      "color": "gray"
+    },
+    {
+      "name": "strategy",
+      "color": "purple"
+    },
+    {
+      "name": "reference",
+      "color": "blue"
+    }
+  ]
+}

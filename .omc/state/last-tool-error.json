@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"cd /c/Users/owner/MyVtuber/.claude/scripts && py -3.12 workflow_d_phase1_executor.py\",\"description\":\"Workflow D Phase 1実行（フォルダ作成・メモリ移行・スキル評価ノート・タグ設定）\"}",
+  "error": "Exit code 1\n============================================================\r\nWorkflow D Phase 1 �������s�J�n\r\n============================================================\r\nVault: C:\\Users\\owner\\MyVtuber\\Obsidian\\Kanoko Knowledge Base\r\n\r\nTraceback (most recent call last):\r\n  File \"C:\\Users\\owner\\MyVtuber\\.claude\\scripts\\workflow_d_phase1_executor.py\", line 26, in <module>\r\n    print(\"\\n\\U0001f4c2 Step 2: �t�H���_�\\���쐬...\")\r\nUnicodeEncodeError: 'cp932' codec can't encode character '\\U0001f4c2' in po...",
+  "timestamp": "2026-04-10T12:28:44.893Z",
+  "retry_count": 1
+}

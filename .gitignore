@@ -1,0 +1,21 @@
+# Obsidian キャッシュ・ローカル設定
+.obsidian/cache/
+.obsidian/plugins/
+.obsidian/workspace.json
+.obsidian/appearance.json
+
+# OS ファイル
+.DS_Store
+Thumbs.db
+
+# バックアップ
+*.backup
+*.tmp
+
+# プライベート設定
+.env
+.env.local
+
+# ノード関連
+node_modules/
+package-lock.json
