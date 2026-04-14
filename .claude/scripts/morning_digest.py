@@ -74,7 +74,10 @@ def get_clippings(days=7):
                             'title': metadata.get('title', md_file.name),
                             'source': metadata.get('source', ''),
                             'created': metadata.get('created', ''),
-                            'description': metadata.get('description', '')[:100] + '...'
+                            'description': metadata.get('description', '')[:100] + '...',
+                            'talk-points': metadata.get('talk-points', ''),  # 配信トーク案
+                            'shorts-ready': metadata.get('shorts-ready', '').lower() == 'true',  # 短編化フラグ
+                            'shorts-hook': metadata.get('shorts-hook', '')  # Shorts のフック
                         })
                 except ValueError:
                     pass
@@ -175,6 +178,10 @@ def get_hot_memory():
 
     return hot_memory[:3]  # Top 3
 
+def is_weekend():
+    """金曜日かどうかを判定（短編化候補表示用）"""
+    return datetime.now().weekday() == 4  # 4 = Friday
+
 def write_morning_briefing(briefing_text):
     """朝のブリーフィングをログに記録"""
     briefing_file = LOGS_ROOT / "morning-briefing.md"
@@ -260,9 +267,29 @@ def main():
                 print(f"     URL: {clip['source']}")
             if clip['description']:
                 print(f"     概要: {clip['description'][:80]}")
+            if clip['talk-points']:
+                print(f"     💡 配信トーク案: {clip['talk-points']}")
     else:
         print("  今週のクリップはありません")
     print()
+
+    # 7. Weekly Shorts Candidates (金曜日のみ)
+    if is_weekend():
+        print("📹 今週の短編化候補（YouTube Shorts）")
+        print("-" * 60)
+        shorts_candidates = [c for c in clippings if c['shorts-ready']]
+        if shorts_candidates:
+            for i, clip in enumerate(shorts_candidates[:5], 1):
+                print(f"  {i}. {clip['title']}")
+                if clip['shorts-hook']:
+                    print(f"     🎬 Shorts 案: {clip['shorts-hook']}")
+                if clip['source']:
+                    print(f"     元動画: {clip['source']}")
+            print()
+            print("  💡 実行: /script-to-short または /youtube-shorts で短編化")
+        else:
+            print("  短編化候補はありません")
+        print()
 
     print("="*60)
     print("✅ Morning Digest 完了\n")
