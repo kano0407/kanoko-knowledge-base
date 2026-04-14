@@ -308,12 +308,13 @@ def main():
     print("-" * 60)
     lectures = get_lecture_candidates()
     if lectures:
-        for i, lecture in enumerate(lectures[:3], 1):
+        for i, lecture in enumerate(lectures[:5], 1):
             print(f"  {i}. {lecture['title']}")
             print(f"     ⏱️  想定時間: {lecture['duration']}")
             print(f"     📄 ファイル: {lecture['file']}")
         print()
         print("  💡 実行: Obsidian で Scripts フォルダを開いて、スライドを確認")
+        print("     5トピック講義で視聴者とインタラクション＋Shorts化可能")
     else:
         print("  講義スライドがまだありません")
     print()
