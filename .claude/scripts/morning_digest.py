@@ -182,6 +182,36 @@ def is_weekend():
     """金曜日かどうかを判定（短編化候補表示用）"""
     return datetime.now().weekday() == 4  # 4 = Friday
 
+def get_lecture_candidates():
+    """Obsidian Scripts フォルダから講義スライドを検出"""
+    scripts_root = VTUBER_ROOT / "Obsidian/Kanoko Knowledge Base/Scripts"
+    if not scripts_root.exists():
+        return []
+
+    lectures = []
+    for md_file in scripts_root.glob("lecture_slides_*.md"):
+        try:
+            with open(md_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+
+            # タイトルを抽出（# 見出し）
+            title_match = None
+            for line in content.split('\n'):
+                if line.startswith('# '):
+                    title_match = line.replace('# ', '').strip()
+                    break
+
+            if title_match:
+                lectures.append({
+                    'title': title_match,
+                    'file': md_file.name,
+                    'duration': '9～10分'  # デフォルト
+                })
+        except Exception:
+            pass
+
+    return lectures
+
 def write_morning_briefing(briefing_text):
     """朝のブリーフィングをログに記録"""
     briefing_file = LOGS_ROOT / "morning-briefing.md"
@@ -273,7 +303,22 @@ def main():
         print("  今週のクリップはありません")
     print()
 
-    # 7. Weekly Shorts Candidates (金曜日のみ)
+    # 7. Lecture Candidates
+    print("📚 講義候補（配信で話す資料）")
+    print("-" * 60)
+    lectures = get_lecture_candidates()
+    if lectures:
+        for i, lecture in enumerate(lectures[:3], 1):
+            print(f"  {i}. {lecture['title']}")
+            print(f"     ⏱️  想定時間: {lecture['duration']}")
+            print(f"     📄 ファイル: {lecture['file']}")
+        print()
+        print("  💡 実行: Obsidian で Scripts フォルダを開いて、スライドを確認")
+    else:
+        print("  講義スライドがまだありません")
+    print()
+
+    # 8. Weekly Shorts Candidates (金曜日のみ)
     if is_weekend():
         print("📹 今週の短編化候補（YouTube Shorts）")
         print("-" * 60)
