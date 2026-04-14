@@ -1,0 +1,122 @@
+{
+  "app:show-debug-info": [
+    {
+      "modifiers": ["Ctrl", "Alt"],
+      "key": "i"
+    }
+  ],
+  "editor:toggle-bold": [
+    {
+      "modifiers": ["Ctrl"],
+      "key": "b"
+    }
+  ],
+  "editor:toggle-italics": [
+    {
+      "modifiers": ["Ctrl"],
+      "key": "i"
+    }
+  ],
+  "editor:toggle-code": [
+    {
+      "modifiers": ["Ctrl"],
+      "key": "`"
+    }
+  ],
+  "editor:toggle-blockquote": [
+    {
+      "modifiers": ["Ctrl", "Shift"],
+      "key": "b"
+    }
+  ],
+  "editor:toggle-ul": [
+    {
+      "modifiers": ["Ctrl", "Shift"],
+      "key": "l"
+    }
+  ],
+  "editor:toggle-ol": [
+    {
+      "modifiers": ["Ctrl", "Shift"],
+      "key": "o"
+    }
+  ],
+  "editor:delete-paragraph": [
+    {
+      "modifiers": ["Ctrl", "Shift"],
+      "key": "k"
+    }
+  ],
+  "app:open-settings": [
+    {
+      "modifiers": ["Ctrl"],
+      "key": ","
+    }
+  ],
+  "file-explorer:new-file": [
+    {
+      "modifiers": ["Ctrl", "Alt"],
+      "key": "n"
+    }
+  ],
+  "file-explorer:new-folder": [
+    {
+      "modifiers": ["Ctrl", "Shift", "Alt"],
+      "key": "n"
+    }
+  ],
+  "global-search:open": [
+    {
+      "modifiers": ["Ctrl", "Shift"],
+      "key": "f"
+    }
+  ],
+  "switcher:open": [
+    {
+      "modifiers": ["Ctrl"],
+      "key": "p"
+    }
+  ],
+  "command-palette:open": [
+    {
+      "modifiers": ["Ctrl", "Shift"],
+      "key": "p"
+    }
+  ],
+  "graph:open": [
+    {
+      "modifiers": ["Ctrl", "Shift"],
+      "key": "g"
+    }
+  ],
+  "daily-notes:goto-today": [
+    {
+      "modifiers": ["Alt"],
+      "key": "t"
+    }
+  ],
+  "periodic-notes:open-today": [
+    {
+      "modifiers": ["Alt"],
+      "key": "t"
+    }
+  ],
+  "periodic-notes:open-this-week": [
+    {
+      "modifiers": ["Alt"],
+      "key": "w"
+    }
+  ],
+  "periodic-notes:open-this-month": [
+    {
+      "modifiers": ["Alt"],
+      "key": "m"
+    }
+  ],
+  "markdown-importer:open": [
+    {
+      "modifiers": ["Ctrl", "Shift"],
+      "key": "i"
+    }
+  ]
+}

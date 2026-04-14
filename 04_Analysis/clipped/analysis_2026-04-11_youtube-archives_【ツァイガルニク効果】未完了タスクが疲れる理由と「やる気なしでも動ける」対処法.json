@@ -1,0 +1,5 @@
+{
+  "status": "error",
+  "error_message": "Usage: python -m notebooklm [OPTIONS] COMMAND [ARGS]...\nTry 'python -m notebooklm --help' for help.\n\nError: No such command 'analyze'.\n",
+  "analysis_date": "2026-04-11"
+}

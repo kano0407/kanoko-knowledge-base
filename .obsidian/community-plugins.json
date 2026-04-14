@@ -1,3 +1,9 @@
 [
-  "dataview"
+  "dataview",
+  "web-clipper",
+  "periodic-notes",
+  "backlinks",
+  "templater",
+  "obsidian-clipper",
+  "templater-obsidian"
 ]
