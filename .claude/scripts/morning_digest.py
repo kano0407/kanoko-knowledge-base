@@ -189,26 +189,28 @@ def get_lecture_candidates():
         return []
 
     lectures = []
-    for md_file in scripts_root.glob("lecture_slides_*.md"):
-        try:
-            with open(md_file, 'r', encoding='utf-8') as f:
-                content = f.read()
+    # lecture_slides_* と lecture_5topics_* の両方のパターンを検出
+    for pattern in ["lecture_slides_*.md", "lecture_5topics_*.md"]:
+        for md_file in scripts_root.glob(pattern):
+            try:
+                with open(md_file, 'r', encoding='utf-8') as f:
+                    content = f.read()
 
-            # タイトルを抽出（# 見出し）
-            title_match = None
-            for line in content.split('\n'):
-                if line.startswith('# '):
-                    title_match = line.replace('# ', '').strip()
-                    break
+                # タイトルを抽出（# 見出し）
+                title_match = None
+                for line in content.split('\n'):
+                    if line.startswith('# '):
+                        title_match = line.replace('# ', '').strip()
+                        break
 
-            if title_match:
-                lectures.append({
-                    'title': title_match,
-                    'file': md_file.name,
-                    'duration': '9～10分'  # デフォルト
-                })
-        except Exception:
-            pass
+                if title_match:
+                    lectures.append({
+                        'title': title_match,
+                        'file': md_file.name,
+                        'duration': '13～14分' if '5topics' in md_file.name else '9～10分'
+                    })
+            except Exception:
+                pass
 
     return lectures
 
