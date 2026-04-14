@@ -1,0 +1,12 @@
+{
+  "enableInlineQueries": true,
+  "enableJavaScript": false,
+  "enableDataviewJs": false,
+  "inlineQueryPrefix": "=",
+  "inlineJsQueryPrefix": "js",
+  "refreshEnabled": true,
+  "refreshInterval": 2500,
+  "recursive": true,
+  "taskCompletion": true,
+  "validateCsvTypes": true
+}

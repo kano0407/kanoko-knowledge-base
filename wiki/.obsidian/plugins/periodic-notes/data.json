@@ -1,0 +1,8 @@
+{
+  "dailyNoteFormat": "YYYY-MM-DD",
+  "dailyNoteFolder": "daily",
+  "weeklyNoteFormat": "YYYY-[W]WW",
+  "weeklyNoteFolder": "weekly",
+  "monthlyNoteFormat": "YYYY-MM",
+  "monthlyNoteFolder": "monthly"
+}

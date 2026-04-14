@@ -1,0 +1,22 @@
+{
+  "attachmentFolderPath": "../raw-sources/assets",
+  "newFileLocation": "current",
+  "useMarkdownLinks": true,
+  "strictLineBreaks": false,
+  "showInlineTitle": false,
+  "showLineNumbers": false,
+  "showFrontmatter": true,
+  "showUnsupportedFiles": false,
+  "insideBlockLink": false,
+  "longNumberFormat": "off",
+  "showFolderColor": true,
+  "transliterate": false,
+  "readableLineLength": true,
+  "lineLength": 80,
+  "rightToLeft": false,
+  "command-palette-multi-line": true,
+  "enable-preview-mode-button": true,
+  "enable-fold-everywhere": false,
+  "theme": "obsidian",
+  "pluginSortOrder": "alphabetical"
+}

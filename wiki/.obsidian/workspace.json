@@ -1,0 +1,185 @@
+{
+  "main": {
+    "id": "d76b0b7fd53196bb",
+    "type": "split",
+    "children": [
+      {
+        "id": "46968816259792cf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "df75365dbdaa30a2",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新規タブ"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b6d5ab69b254a631",
+    "type": "split",
+    "children": [
+      {
+        "id": "6f0171a0ea3abc81",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5c49f6c4c6fc67fe",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "ファイルエクスプローラ"
+            }
+          },
+          {
+            "id": "7088015a5019f15c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "検索"
+            }
+          },
+          {
+            "id": "1e0987b73459e615",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "ブックマーク"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f7b3f61d485789af",
+    "type": "split",
+    "children": [
+      {
+        "id": "e6153d209db27cf2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d60f7530d18163b5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "バックリンク"
+            }
+          },
+          {
+            "id": "f3c1bf2429056634",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "アウトゴーイングリンク"
+            }
+          },
+          {
+            "id": "7ca0a7a65485cc6d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "タグ"
+            }
+          },
+          {
+            "id": "785438718617b2bc",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "すべてのプロパティ"
+            }
+          },
+          {
+            "id": "1bbd7fde8f99c10f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "アウトライン"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "templater-obsidian:Templater": false,
+      "switcher:クイックスイッチャーを開く": false,
+      "graph:グラフビューを開く": false,
+      "canvas:新規キャンバスを作成": false,
+      "daily-notes:今日のデイリーノートを開く": false,
+      "templates:テンプレートを挿入": false,
+      "command-palette:コマンドパレットを開く": false,
+      "bases:新規ベースを作成": false
+    }
+  },
+  "active": "5c49f6c4c6fc67fe",
+  "lastOpenFiles": [
+    "Clippings/【脱・時間がない】朝活の伝道師直伝。やりたいことも仕事もうまくいく、なぜか余裕がある人の時間術.md",
+    "Clippings"
+  ]
+}

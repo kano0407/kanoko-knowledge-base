@@ -1,0 +1,9 @@
+{
+  "saveLocation": "articles",
+  "filenameFormat": "{{title}}_{{date}}",
+  "autoSaveOnClip": true,
+  "includeMetadata": true,
+  "stripImages": false,
+  "maxRetries": 3,
+  "timeout": 30000
+}

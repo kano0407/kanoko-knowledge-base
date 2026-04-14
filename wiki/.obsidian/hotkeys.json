@@ -1,0 +1,38 @@
+{
+  "quickswitcher:open": [
+    {
+      "modifiers": ["Ctrl"],
+      "key": "P"
+    }
+  ],
+  "editor:focus": [
+    {
+      "modifiers": [],
+      "key": "Escape"
+    }
+  ],
+  "app:go-back": [
+    {
+      "modifiers": ["Alt"],
+      "key": "ArrowLeft"
+    }
+  ],
+  "app:go-forward": [
+    {
+      "modifiers": ["Alt"],
+      "key": "ArrowRight"
+    }
+  ],
+  "periodic-notes:open-daily": [
+    {
+      "modifiers": ["Ctrl", "Shift"],
+      "key": "D"
+    }
+  ],
+  "periodic-notes:open-weekly": [
+    {
+      "modifiers": ["Ctrl", "Shift"],
+      "key": "W"
+    }
+  ]
+}
