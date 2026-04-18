@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "raw-sources/transcripts/broadcast_script_morning_routine_example.md",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +70,8 @@
               "title": "ブックマーク"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -177,7 +178,7 @@
       "bases:新規ベースを作成": false
     }
   },
-  "active": "5c49f6c4c6fc67fe",
+  "active": "7088015a5019f15c",
   "lastOpenFiles": [
     "Clippings/【脱・時間がない】朝活の伝道師直伝。やりたいことも仕事もうまくいく、なぜか余裕がある人の時間術.md",
     "Clippings"
