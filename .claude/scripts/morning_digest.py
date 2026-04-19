@@ -230,6 +230,25 @@ def main():
     print("="*60)
     print(f"📅 {datetime.now().strftime('%Y年%m月%d日 %H:%M')}\n")
 
+    # 0. Context: CRITICAL_FACTS & SOUL (常時読み込み)
+    print("💡 Context Information")
+    print("-" * 60)
+    critical_facts = read_memory_file("CRITICAL_FACTS.md")
+    soul = read_memory_file("SOUL.md")
+
+    if critical_facts:
+        print("✓ CRITICAL_FACTS.md を読み込み")
+        # タイムゾーン・KPI を表示
+        facts_lines = critical_facts.split('\n')
+        for line in facts_lines:
+            if 'タイムゾーン' in line or '月間目標' in line or '月間新規' in line:
+                print(f"  {line.strip()}")
+
+    if soul:
+        print("✓ SOUL.md を読み込み（Kanoko の Voice・Tone）")
+
+    print()
+
     # 1. Open Actions
     print("📋 本日の未完了タスク（Action Items）")
     print("-" * 60)
